@@ -1,0 +1,2 @@
+# traccia
+Invia una richiesta POST a https://jsonplaceholder.typicode.com/posts con le proprietà title, body e userId, impostando l'header Content-Type: application/json. Nel primo .then() stampa il codice di stato e il valore di response.ok, poi restituisci i dati come JSON. Nel secondo .then() stampa il messaggio 'Risorsa creata con id: ' seguito dall'id restituito dal server.
